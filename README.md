@@ -1,4 +1,5 @@
-**Computação em Nuvem Azure**: Plataforma de serviços em nuvem da Microsoft que oferece infraestrutura (IaaS), plataforma (PaaS) e software (SaaS) como serviço. Inclui soluções como máquinas virtuais, armazenamento, IA e ferramentas de desenvolvimento, com destaque para integração e escalabilidade.
+### **Computação em Nuvem Azure** 
+Plataforma de serviços em nuvem da Microsoft que oferece infraestrutura (IaaS), plataforma (PaaS) e software (SaaS) como serviço. Inclui soluções como máquinas virtuais, armazenamento, IA e ferramentas de desenvolvimento, com destaque para integração e escalabilidade.
 
 **Domínio de Objeto**: Conceito da programação orientada a objetos que representa um contexto específico de negócio, com entidades, regras e relacionamentos. Na nuvem, pode se referir à organização lógica de recursos e serviços.
 
@@ -16,7 +17,7 @@
 	- Aba categorias possui os serviços disponíveis no Azure. 
 	- Alguns serviços que estão començando a ser disponibilizados ficam com uma label de versão prévia. Esses serviços não possuem SLA, ou garantia de que o que foi feito fique salvo. 
 
-**Benefícios da Nuvem**: 
+## **Benefícios da Nuvem**: 
 
 ### **Alta Disponibilidade**
 A Azure garante **alta disponibilidade** por meio de **SLAs (Service Level Agreements)** robustos, que prometem um tempo de atividade (uptime) extremamente alto, geralmente acima de 99,9%. Isso é alcançado através de:
@@ -31,7 +32,7 @@ A Azure permite **escalabilidade**, ou seja, a capacidade de ajustar os recursos
 - **Escalabilidade horizontal**: Adicionar mais instâncias de servidores ou serviços para distribuir a carga.
 
 
-### *Elasticidade**
+### **Elasticidade**
 A **elasticidade** é a capacidade de aumentar ou diminuir recursos automaticamente, em tempo real, conforme a demanda. Isso é diferente da escalabilidade, pois a elasticidade é dinâmica e automatizada. Por exemplo:
 - Durante um pico de tráfego, a Azure pode adicionar mais servidores automaticamente.
 - Quando a demanda diminui, os recursos extras são liberados, evitando custos desnecessários.
