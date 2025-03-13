@@ -73,3 +73,36 @@ A Azure oferece dois tipos principais de gerenciamento:
 **Implantação de recursos pré-configurados**:
    - Usar modelos pré-configurados (como ARM Templates) para implantar recursos rapidamente, sem necessidade de configuração manual.
    - Isso acelera o processo de implantação e reduz erros humanos.
+
+
+## **Tipos de serviços de nuvem**:
+
+### **IaaS (Infrastructure as a Service)**  
+- **O que é**: Fornece infraestrutura básica (servidores, armazenamento, redes) como um serviço.  
+- **Controle**: Você gerencia o sistema operacional, aplicativos e dados.  
+- **Exemplo**: AWS EC2, Azure Virtual Machines.  
+
+
+
+### **PaaS (Platform as a Service)**  
+- **O que é**: Oferece uma plataforma para desenvolver, testar e gerenciar aplicações.  
+- **Controle**: Você gerencia apenas os aplicativos e dados; a infraestrutura e o sistema operacional são gerenciados pelo provedor.  
+- **Exemplo**: Google App Engine, Heroku.  
+
+
+
+### **SaaS (Software as a Service)**  
+- **O que é**: Software pronto para uso, acessado via navegador ou API.  
+- **Controle**: Você só usa o software; tudo (infraestrutura, sistema operacional, aplicação) é gerenciado pelo provedor.  
+- **Exemplo**: Google Workspace, Microsoft 365, Salesforce.  
+
+
+
+**Resumo**:
+- **IaaS**: Controle total sobre a infraestrutura.  
+- **PaaS**: Foco no desenvolvimento de aplicações.  
+- **SaaS**: Software pronto, sem preocupação com infraestrutura.  
+
+Cada um atende a diferentes necessidades, desde infraestrutura personalizada (IaaS) até soluções completas e prontas (SaaS). 🚀
+
+![alt text](image.png)
