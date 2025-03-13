@@ -105,8 +105,6 @@ A Azure oferece dois tipos principais de gerenciamento:
 
 Cada um atende a diferentes necessidades, desde infraestrutura personalizada (IaaS) até soluções completas e prontas (SaaS). 🚀
 
-![alt text](image.png)
-
 ## **Componentes da arquitetura Azure**
 
 ### **Regiões Pares**
@@ -164,3 +162,122 @@ Cada um atende a diferentes necessidades, desde infraestrutura personalizada (Ia
 - **Benefícios**:
   - Isolamento de ambientes (dev, test, prod).
   - Controle de custos e governança por assinatura.
+
+## **Tipos de Computação no Azure**
+
+### **Instâncias de Contêiner (Azure Container Instances - ACI)**
+- **O que é**: Um serviço para executar contêineres sem gerenciar servidores ou orquestração.
+- **Benefícios**:
+  - **Simplicidade**: Implante contêineres rapidamente sem configurar infraestrutura.
+  - **Escalabilidade**: Escale conforme a demanda.
+  - **Pago por uso**: Cobrado apenas pelo tempo de execução do contêiner.
+- **Casos de uso**: Cargas de trabalho efêmeras, tarefas em lote, aplicativos simples.
+
+
+
+### **Máquinas Virtuais (Azure Virtual Machines - VMs)**
+- **O que é**: Serviço de infraestrutura como serviço (IaaS) que permite criar e gerenciar servidores virtuais.
+- **Benefícios**:
+  - **Controle total**: Escolha o sistema operacional, configure a rede e instale software personalizado.
+  - **Flexibilidade**: Adequado para cargas de trabalho complexas e personalizadas.
+- **Casos de uso**: Aplicativos legados, servidores de banco de dados, cargas de trabalho que exigem controle total.
+
+
+
+### **Funções (Azure Functions)**
+- **O que é**: Um serviço de computação sem servidor (serverless) para executar pequenos trechos de código (funções) em resposta a eventos.
+- **Benefícios**:
+  - **Sem gerenciamento de infraestrutura**: Foque apenas no código.
+  - **Escalabilidade automática**: Escala automaticamente com base na demanda.
+  - **Pago por execução**: Cobrado apenas pelo tempo de execução do código.
+- **Casos de uso**: Processamento de eventos, automação de tarefas, APIs leves.
+
+
+
+## **Opções de Hospedagem de Aplicativos no Azure**
+
+### **Aplicativos Web do Azure (Azure App Service)**
+- **O que é**: Um serviço de plataforma como serviço (PaaS) para hospedar aplicativos web, APIs e back-ends móveis.
+- **Benefícios**:
+  - **Totalmente gerenciado**: Sem preocupação com infraestrutura.
+  - **Suporte a múltiplas linguagens**: .NET, Java, Node.js, Python, PHP, etc.
+  - **Escalabilidade automática**: Escale verticalmente ou horizontalmente.
+- **Casos de uso**: Aplicativos web, APIs RESTful, back-ends móveis.
+
+
+
+### **Contêineres (Azure Kubernetes Service - AKS)**
+- **O que é**: Um serviço gerenciado para orquestrar contêineres usando Kubernetes.
+- **Benefícios**:
+  - **Escalabilidade e alta disponibilidade**: Gerencia clusters de contêineres de forma eficiente.
+  - **Portabilidade**: Execute contêineres em qualquer lugar (nuvem, local ou híbrido).
+- **Casos de uso**: Aplicativos modernos, microsserviços, cargas de trabalho escaláveis.
+
+
+
+### **Máquinas Virtuais (Azure Virtual Machines)**
+- **O que é**: Infraestrutura como serviço (IaaS) para hospedar aplicativos em servidores virtuais.
+- **Benefícios**:
+  - **Controle total**: Personalize o ambiente conforme necessário.
+  - **Flexibilidade**: Adequado para aplicativos complexos e personalizados.
+- **Casos de uso**: Aplicativos legados, servidores de banco de dados, cargas de trabalho específicas.
+
+
+
+## **Redes no Azure**
+
+### **Redes Virtuais (VNet)**
+- **O que é**: Uma rede isolada no Azure para conectar recursos de forma segura.
+- **Benefícios**:
+  - **Isolamento**: Separação lógica de recursos.
+  - **Conectividade**: Conecte VMs, contêineres e outros serviços.
+
+
+
+### **Sub-redes**
+- **O que é**: Divisões lógicas dentro de uma rede virtual (VNet) para organizar recursos.
+- **Benefícios**:
+  - **Segmentação**: Melhora a segurança e o gerenciamento.
+  - **Controle de tráfego**: Aplique regras de rede (NSGs) por sub-rede.
+
+
+
+### **Emparelhamento de VNets**
+- **O que é**: Conectar duas redes virtuais (VNets) para permitir comunicação privada.
+- **Benefícios**:
+  - **Comunicação segura**: Tráfego privado entre redes.
+  - **Redução de custos**: Elimina a necessidade de gateways caros.
+
+
+
+### **DNS (Azure DNS)**
+- **O que é**: Serviço de hospedagem de domínios DNS para resolver nomes de domínio em endereços IP.
+- **Benefícios**:
+  - **Alta disponibilidade**: Garante resolução de nomes confiável.
+  - **Integração**: Funciona com redes virtuais e serviços do Azure.
+
+
+
+### **Gateway de Rede Virtual**
+- **O que é**: Um gateway que conecta redes locais ao Azure (via VPN ou ExpressRoute).
+- **Benefícios**:
+  - **Conectividade híbrida**: Integra redes locais e Azure.
+  - **Segurança**: Criptografia de tráfego via VPN.
+
+
+
+### **ExpressRoute**
+- **O que é**: Conexão privada e dedicada entre redes locais e o Azure, sem passar pela internet pública.
+- **Benefícios**:
+  - **Alta confiabilidade**: SLAs de alta disponibilidade.
+  - **Baixa latência**: Ideal para cargas de trabalho críticas.
+  - **Segurança**: Tráfego privado e isolado.
+
+
+
+### Resumo:
+- **Tipos de Computação**: Instâncias de Contêiner, Máquinas Virtuais e Funções oferecem diferentes níveis de controle e gerenciamento.
+- **Opções de Hospedagem**: Aplicativos Web, Contêineres e VMs atendem a diferentes necessidades de hospedagem.
+- **Redes no Azure**: Redes Virtuais, Sub-redes, Emparelhamento, DNS, Gateway e ExpressRoute fornecem conectividade segura e gerenciamento de rede.
+
+Esses serviços e conceitos são fundamentais para construir, implantar e gerenciar aplicativos e infraestrutura na nuvem Azure. 🚀
