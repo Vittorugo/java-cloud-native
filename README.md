@@ -106,3 +106,61 @@ A Azure oferece dois tipos principais de gerenciamento:
 Cada um atende a diferentes necessidades, desde infraestrutura personalizada (IaaS) até soluções completas e prontas (SaaS). 🚀
 
 ![alt text](image.png)
+
+## **Componentes da arquitetura Azure**
+
+### **Regiões Pares**
+- **O que são**: Regiões geograficamente próximas dentro de uma mesma área geográfica (ex.: Leste dos EUA e Oeste dos EUA).
+- **Objetivo**: Garantir **alta disponibilidade** e **resiliência** para cargas de trabalho críticas.
+- **Funcionalidades**:
+  - **Isolamento de falhas**: As regiões são fisicamente separadas para evitar que um desastre afete ambas.
+  - **Atualizações sequenciais**: O Azure atualiza uma região de cada vez no par, minimizando o impacto.
+  - **Replicação de dados**: Serviços como o Azure Storage replicam dados automaticamente entre regiões pares.
+- **Exemplo**: Brasil Sul (South Brazil) é pareada com Centro-Sul dos EUA (South Central US).
+
+
+### **Regiões Soberanas**
+- **O que são**: Regiões isoladas fisicamente e logicamente, projetadas para atender requisitos específicos de **soberania de dados** e **conformidade**.
+- **Objetivo**: Atender governos ou organizações que exigem que os dados permaneçam dentro de um país ou região específica.
+- **Exemplos**:
+  - **Azure Government**: Para agências governamentais dos EUA.
+  - **Azure China**: Operado pela 21Vianet, atendendo regulamentações chinesas.
+- **Características**:
+  - Infraestrutura separada da nuvem global do Azure.
+  - Conformidade com regulamentações locais.
+
+
+### **Grupos de Recursos**
+- **O que são**: Contêineres lógicos que agrupam recursos relacionados (como VMs, bancos de dados, redes) em uma única unidade.
+- **Objetivo**: Facilitar o **gerenciamento**, **organização** e **monitoramento** de recursos.
+- **Benefícios**:
+  - Aplicação de políticas e permissões em nível de grupo.
+  - Facilidade para excluir ou mover vários recursos de uma vez.
+  - Controle de custos e monitoramento centralizado.
+- **Exemplo**: Um Grupo de Recursos chamado **"AppWeb-Prod"** pode conter uma VM, um banco de dados SQL e uma rede virtual.
+
+
+### **Grupos de Gerenciamento**
+- **O que são**: Contêineres que permitem gerenciar **múltiplas assinaturas** de forma hierárquica.
+- **Objetivo**: Simplificar a governança, o gerenciamento de custos e a aplicação de políticas em escala.
+- **Funcionalidades**:
+  - **Herança de condições**: As assinaturas dentro de um Grupo de Gerenciamento herdam políticas, permissões e configurações.
+  - **Hierarquia flexível**: Permite organizar assinaturas em uma estrutura que reflete a organização da empresa (ex.: por departamento, projeto ou ambiente).
+- **Exemplo**: Um Grupo de Gerenciamento chamado **"Financeiro"** pode incluir assinaturas de Desenvolvimento, Teste e Produção para o departamento financeiro.
+
+
+### **Assinatura Azure**
+- **O que é**: Uma unidade lógica que agrupa recursos e serviços do Azure, vinculada a uma conta de cobrança.
+- **Tipos comuns de assinaturas**:
+  1. **Desenvolvimento**:
+     - Usada para criar e testar aplicativos.
+     - Geralmente tem menos restrições de orçamento e políticas.
+  2. **Teste**:
+     - Usada para testes de carga, desempenho e funcionalidade.
+     - Pode ter políticas mais rígidas que o ambiente de desenvolvimento.
+  3. **Produção**:
+     - Usada para cargas de trabalho críticas e em execução.
+     - Geralmente tem políticas rigorosas de segurança, conformidade e monitoramento.
+- **Benefícios**:
+  - Isolamento de ambientes (dev, test, prod).
+  - Controle de custos e governança por assinatura.
