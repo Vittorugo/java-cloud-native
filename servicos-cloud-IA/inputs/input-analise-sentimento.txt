@@ -1,0 +1,5 @@
+Estou gostando do curso Java Cloud Nature pois ele aborda assuntos sobre IA.
+O curso também contém projetos interessantes para quem é iniciante, como também para quem tem o nível intermediário.
+Esperava que o curso oferecesse um projeto prático de java integrado com as ferramentas Azure, isso não ocorreu.
+ 
+
