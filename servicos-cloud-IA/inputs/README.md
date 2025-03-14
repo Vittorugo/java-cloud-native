@@ -91,3 +91,26 @@ O **Azure AI Search** é uma ferramenta poderosa para analisar e extrair insight
 - **Integração**: Pode ser facilmente integrado a outros serviços do Azure, como Power BI, para visualizações avançadas.
 
 Com o Azure AI Search, empresas podem transformar feedbacks brutos em informações valiosas, melhorando a experiência do cliente e tomando decisões mais informadas.
+
+### **IA Generativa**  
+A **IA generativa** é um tipo de inteligência artificial que cria novos conteúdos, como texto, imagens, música ou código, com base em padrões aprendidos de grandes volumes de dados. Exemplos incluem modelos como **GPT** (para texto) e **DALL-E** (para imagens). Ela é usada em aplicações como chatbots, geração de conteúdo, design e muito mais.
+
+---
+
+### **Microsoft Copilot**  
+O **Microsoft Copilot** é uma ferramenta de IA generativa integrada a produtos da Microsoft, como **GitHub**, **Microsoft 365** e **Bing**. Ele auxilia os usuários em tarefas como:  
+- **GitHub Copilot**: Geração de código para desenvolvedores.  
+- **Copilot no Microsoft 365**: Criação de documentos, e-mails e apresentações.  
+- **Bing Copilot**: Pesquisas avançadas e geração de conteúdo.  
+Ele usa modelos como o GPT para oferecer sugestões e automatizar tarefas.
+
+---
+
+### **Possibilidades do Microsoft Learning**  
+O **Microsoft Learning** oferece recursos para capacitação em tecnologias Microsoft, incluindo IA. As possibilidades incluem:  
+1. **Cursos e Certificações**: Treinamentos em IA, Azure, e outras tecnologias.  
+2. **Hands-on Labs**: Ambientes práticos para experimentar soluções de IA.  
+3. **Documentação e Tutoriais**: Guias para usar ferramentas como Azure AI, OpenAI no Azure e Copilot.  
+4. **Parcerias com Instituições**: Programas educacionais para capacitação em IA e nuvem.  
+
+Esses recursos ajudam profissionais e empresas a dominar tecnologias de IA e aplicá-las em soluções reais.
